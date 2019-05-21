@@ -1413,8 +1413,8 @@ a.list-group-item:focus {
 /* FRIENDS */
 /* PANELS */
 .panel {
-  float: left;
-  width: 100%;
+  float:inherit;
+  width: 1660px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
@@ -1609,6 +1609,7 @@ a.list-group-item:focus {
 .panel-danger .panel-heading {
   background: #F5F5F5;
   border-color: #E5E5E5;
+  width:100%;
 }
 .panel-fullscreen-wrap {
   width: 100%;
@@ -3353,13 +3354,13 @@ td.dataTables_empty {
 }
 .widget.widget-default {
   background: #ffffff;
-   
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
+
 }
 .widget.widget-primary {
   background: #1b1e24;
@@ -3382,7 +3383,7 @@ td.dataTables_empty {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#95b75d, endColorstr=#89ad4d, GradientType=0);
 }
 .widget.widget-info {
-background: #1caf9a !important;  
+background: #1caf9a !important;
 }
 .widget.widget-warning {
   background: #1caf9a;
